@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+/*header start */
+header{
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.logo{
+  font-size: 42px;
+  padding: 11px 0 0 11px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 12px;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-left: 111px;
+  
+}
+
+.nav ul{
+  list-style: none;
+  
+}
+.nav ul li a{
+  color: white;
+text-decoration: none;
+  
+}
+.nav ul li{
+  background-color: dimgray;
+  border: 3px solid white;
+  width: 99px;
+  height: 44px;
+  float: left;
+  text-align: center;
+  font-size: 23px;
+  line-height: 34px;
+  padding:8px;
+  
+}
+.nav ul ul{
+  display: none;
+  
+  margin-top: 22px;
+}
+.nav ul li:hover > ul {
+  display: block;
+}
+/* header end */
+/* form Star */
+.form1{
+  background-color: crimson;
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  padding: 80px 250px;
+  margin-top: 55px;
+  border-radius:54px;
+  box-shadow: 0 4px 8px 0 white;
+}
+.form1 input{
+  background-color: white;
+  padding: 5px 55px;
+  border-color: yellowgreen;
+  border-radius: 50px;
+}
+.btn{
+  font-weight: bold;
+}
+
+
+/* form end */
+/* footer start  */
+img{
+  width: 53px;
+  height: 53px;
+}
+footer{
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  background-color:black;
+  width: 100%;
+  color: white;
+}
+.name h2{
+  font-weight:bold;
+  font-size: 54px;
+  position: relative;
+  top: -22px;
+}
+.text p {
+  width: 602px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: -39px;
+}
+.icon img{
+  font-size: 55px;
+  position: relative;
+  top: -22px;
+  padding: 22px;
+}
+.copy {
+  height: 55px;
+  width: 100%;
+  background-color:gray;
+  line-height: 55px;
+  font-size: 22px;
+}
+
+
+/* footer end */
